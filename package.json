@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/BenB-C/react-help-queue/issues"
   },
-  "homepage": "https://github.com/BenB-C/react-help-queue#readme"
+  "homepage": "https://github.com/BenB-C/react-help-queue#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }
