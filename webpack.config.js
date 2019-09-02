@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const { resolve } = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -9,7 +10,6 @@ module.exports = {
     'webpack/hot/only-dev-server',
     resolve(__dirname, "src", "index.jsx")
   ],
-
 
   output: {
     filename: 'app.bundle.js',
@@ -51,6 +51,12 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
+    new HtmlWebpackPlugin({
+      template:'template.ejs',
+      appMountId: 'react-app-root',
+      title: 'React Help Queue',
+      filename: resolve(__dirname, "build", "index.html"),
+    }),
   ]
 
 };
