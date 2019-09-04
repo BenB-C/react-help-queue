@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Ticket(props){
   return (
-    <div>
+    <div className='ticket'>
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
       <hr/>
