@@ -9,7 +9,6 @@ function App(){
     <div>
       <Header/>
       <TicketList/>
-      <MyStyledComponent/>
     </div>
   );
 }
