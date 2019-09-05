@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Ticket.css';
 
 function Ticket(props){
   return (
-    <div className='ticket'>
+    <div className='Ticket'>
       <h3>{props.location} - {props.names}</h3>
       <p><em>{props.issue}</em></p>
       <hr/>
