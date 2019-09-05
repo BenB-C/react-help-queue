@@ -1,3 +1,13 @@
 .Ticket {
   background-color: red;
 }
+
+.puppyImg {
+  display: inline-block;
+  height: 100px;
+  margin: 0 10px;
+}
+
+.ticketInfo {
+  display: inline-block;
+}
