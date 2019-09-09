@@ -1,13 +1,15 @@
 .Ticket {
-  background-color: red;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
 }
 
 .puppyImg {
-  display: inline-block;
+  /* display: inline-block; */
   height: 100px;
   margin: 0 10px;
 }
 
 .ticketInfo {
-  display: inline-block;
+  /* display: inline-block; */
 }
