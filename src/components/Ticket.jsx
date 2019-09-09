@@ -10,7 +10,6 @@ function Ticket(props){
       <div className='ticketInfo'>
         <h3>{props.location} - {props.names}</h3>
         <p><em>{props.issue}</em></p>
-        <hr/>
       </div>
     </div>
   );
